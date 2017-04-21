@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+#use_frameworks!个别需要用到它，比如reactiveCocoa
+
+def pods
+  pod 'AFNetworking', '~> 2.6'
+  pod 'TempDemo',:git=>'https://github.com/TimeshareHands/TempDemo.git'
+  pod 'PushClientSDK',:git=>'https://github.com/jeasonyoung/PushClientSDK-iOS.git'
+end
+target 'TempDemo' do
+  pods
+end

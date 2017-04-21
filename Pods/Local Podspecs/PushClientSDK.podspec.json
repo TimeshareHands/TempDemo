@@ -1,0 +1,27 @@
+{
+  "name": "PushClientSDK",
+  "version": "1.1.0",
+  "summary": "Push Client SDK for iOS",
+  "homepage": "https://github.com/jeasonyoung/PushClientSDK-iOS",
+  "license": "MIT",
+  "authors": {
+    "yangyong": "jeason1914@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jeasonyoung/PushClientSDK-iOS.git",
+    "tag": "1.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "PushClientSDK/PushClientSDK/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "AFNetworking": [
+      "~>2.0"
+    ],
+    "CocoaAsyncSocket": [
+
+    ]
+  }
+}

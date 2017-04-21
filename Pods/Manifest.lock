@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.0)
+  - PushClientSDK (1.1.0):
+    - AFNetworking (~> 2.0)
+    - CocoaAsyncSocket
+  - TempDemo (1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - PushClientSDK (from `https://github.com/jeasonyoung/PushClientSDK-iOS.git`)
+  - TempDemo (from `https://github.com/TimeshareHands/TempDemo.git`)
+
+EXTERNAL SOURCES:
+  PushClientSDK:
+    :git: https://github.com/jeasonyoung/PushClientSDK-iOS.git
+  TempDemo:
+    :git: https://github.com/TimeshareHands/TempDemo.git
+
+CHECKOUT OPTIONS:
+  PushClientSDK:
+    :commit: 0ecafcd25b926d324eddf2b1ac5626fd3e058eab
+    :git: https://github.com/jeasonyoung/PushClientSDK-iOS.git
+  TempDemo:
+    :commit: 3902bdb0e6acb154f814feef7a254e32149f6e37
+    :git: https://github.com/TimeshareHands/TempDemo.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
+  PushClientSDK: cfcbef4f8187c587e2921d1007c0985294ad44c1
+  TempDemo: 3b51775641a8b66980f360d5140a47a4b7c04aaf
+
+PODFILE CHECKSUM: a5b33b61364910e6be6a24e822d2c6572b0ba79e
+
+COCOAPODS: 1.2.1
